@@ -9,7 +9,7 @@ Site credentials:
 1. http://eitb.api.com/web/company-details?_format=json
 2. http://eitb.api.com/web/employee-details?_format=json
 3. http://eitb.api.com/web/event?_format=json
-Note Use Basic Auth : user name : vijay password : vijay (Postman Authentication)
+Note Use Basic Auth : (username : vijay , password : vijay (Postman Authentication))
 You Can See Api endpoints data ( (http://eitb.api.com/web/fetch/data/api/company-details))
 
 ## Documentation:
@@ -55,11 +55,11 @@ I have created API endpoints Using  RESTful Web Services module and custom modul
 1. http://eitb.api.com/web/company-details?_format=json
 2. http://eitb.api.com/web/employee-details?_format=json
 3. http://eitb.api.com/web/event?_format=json
-
+Note Use Basic Auth : (username : vijay , password : vijay (Postman Authentication))
 You Can See Api endpoints data ( (http://eitb.api.com/web/fetch/data/api/company-details))
 
 - Note Use Basic Auth :
-  user name : vijay 
+  username : vijay 
   password : vijay
 
 I Create a Custom module(/modules/custom/technical_assessment).
