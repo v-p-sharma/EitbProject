@@ -1,0 +1,6 @@
+name: Technical Assessment
+type: module
+description: 'This Module Provide Api End Point'
+core_version_requirement: ^9 || ^10
+package: custom
+configure: technical_assessment.companydetails

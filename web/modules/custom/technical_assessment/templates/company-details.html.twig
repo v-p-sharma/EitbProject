@@ -1,0 +1,18 @@
+{% if data %}
+  <div>
+    {% for item in data %}
+      <div>
+        <h2>{{ item.company_name }}</h2>
+        <p>{{ item.company_des }}</p>
+        {% if item.company_image %}
+          <img src="{{ item.company_image }}" alt="{{ item.company_name }}">
+        {% endif %}
+        {% if item.company_url %}
+          <a href="{{ item.company_url }}" target="_blank">{{ item.company_url_title }}</a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No data available.</p>
+{% endif %}

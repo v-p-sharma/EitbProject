@@ -1,0 +1,13 @@
+{% if data %}
+  <div>
+    {% for event in data %}
+      <div class="event">
+        <h2>{{ event.event_name }}</h2>
+        <p><strong>Start Date:</strong> {{ event.event_start_date|date("Y-m-d H:i:s") }}</p>
+        <p><strong>End Date:</strong> {{ event.event_end_date|date("Y-m-d H:i:s") }}</p>
+      </div>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No event data available.</p>
+{% endif %}

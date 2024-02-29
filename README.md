@@ -12,6 +12,10 @@ Site credentials:
 Note Use Basic Auth : (username : vijay , password : vijay (Postman Authentication))
 You Can See Api endpoints data ( (http://eitb.api.com/web/fetch/data/api/company-details))
 
+### For Testing Api endpoints Data 
+
+I Create Controller(/modules/custom/technical_assessment/src/Controller). and Create Three Tabs for Three API endpoint data and fetch Api data and display in Twig file.
+
 ## Documentation:
 ## Follow the instructions below to set up the project on your local machine.
 

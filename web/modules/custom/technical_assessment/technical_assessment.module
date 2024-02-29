@@ -1,0 +1,27 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function technical_assessment_theme($existing, $type, $theme, $path) {
+    return [
+      'company_details' => [
+        'variables' => [
+          'data' => NULL,
+        ],
+        'template' => 'company-details',
+      ],
+      'employee_details' => [
+        'variables' => [
+          'data' => NULL,
+        ],
+        'template' => 'employee-details',
+      ],
+      'events' => [
+        'variables' => [
+          'data' => NULL,
+        ],
+        'template' => 'events',
+      ],
+      
+    ];
+  }

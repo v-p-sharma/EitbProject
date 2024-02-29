@@ -1,0 +1,21 @@
+technical_assessment.companydetails:
+  path: '/fetch/data/api/company-details'
+  defaults:
+    _controller: '\Drupal\technical_assessment\Controller\FetchJsonData::companyDetails'
+    _title: 'Fetch Company Json Data'
+  requirements:
+    _permission: 'access content'
+technical_assessment.employeedetails:
+  path: '/fetch/data/api/employee-details'
+  defaults:
+    _controller: '\Drupal\technical_assessment\Controller\FetchJsonData::employeeDetails'
+    _title: 'Fetch Employee Json Data'
+  requirements:
+    _permission: 'access content'
+technical_assessment.events:
+  path: '/fetch/data/api/events'
+  defaults:
+    _controller: '\Drupal\technical_assessment\Controller\FetchJsonData::events'
+    _title: 'Fetch Event Json Data'
+  requirements:
+    _permission: 'access content'

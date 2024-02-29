@@ -1,0 +1,22 @@
+{% if data %}
+  <div>
+    {% for employee in data %}
+      {% if employee.employee_name is defined %}
+        <div class="employee">
+          <h2>{{ employee.employee_name }}</h2>
+          {% if employee.employee_des is defined %}
+            <p>{{ employee.employee_des }}</p>
+          {% endif %}
+          {% if employee.employee_image is defined %}
+            <img src="{{ employee.employee_image }}" alt="{{ employee.employee_name }}">
+          {% endif %}
+          {% if employee.employee_role is defined %}
+            <p><strong>Role:</strong> {{ employee.employee_role }}</p>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No employee data available.</p>
+{% endif %}

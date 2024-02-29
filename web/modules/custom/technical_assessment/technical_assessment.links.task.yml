@@ -1,0 +1,12 @@
+technical_assessment.companydetails: 
+  route_name: technical_assessment.companydetails 
+  title: 'Fetch Company Details'
+  base_route: technical_assessment.companydetails
+technical_assessment.apia: 
+  route_name: technical_assessment.employeedetails  
+  title: 'Fetch Employee Details'
+  base_route: technical_assessment.companydetails
+technical_assessment.events: 
+  route_name: technical_assessment.events 
+  title: 'Fetch Events'
+  base_route: technical_assessment.companydetails
